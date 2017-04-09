@@ -35,7 +35,7 @@
     </dependencies>
 
     <build>
-        <finalName>psu-ewallet-website</finalName>
+        <finalName>ewallet</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

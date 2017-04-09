@@ -3,8 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+ <style>
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+</style>
 </head>
 <body>
-Hello World
+
+<ul>
+  <li><a class="active" href="#home">หน้าแรก</a></li>
+  <li><a href="#news">เพิ่มสินค้า</a></li>
+  <li><a href="report.html">แสดงรายการขาย</a></li>
+</ul>
+
+<div style="margin-left:10%;padding:1px 16px;height:1000px;">
+  <h2>PSU - eWALLET - WEBSITE</h2>
+</div>
+
 </body>
 </html>

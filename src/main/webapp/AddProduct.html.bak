@@ -16,15 +16,6 @@
 
 </div>
 
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="product_name_fr">PRODUCT ID</label>  
-  <div class="col-md-4">
-  <input id="product_name_fr" name="product_name_fr" placeholder="" class="form-control input-md" required="" type="text">
-    
-  </div>
-</div>
-
 
 <!-- Text input-->
 <div class="form-group">

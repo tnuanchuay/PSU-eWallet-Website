@@ -1,6 +1,6 @@
-package Controllers;
+package controllers;
 
-import Models.Hello;
+import models.Hello;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import javax.servlet.ServletException;
@@ -15,7 +15,7 @@ import java.io.IOException;
  * Created by tnuanchuay on 4/9/2017.
  */
 
-@WebServlet(urlPatterns = { "/hello" })
+@WebServlet(urlPatterns = { "/Hello" })
 public class HelloController extends HttpServlet{
 
     @Override
